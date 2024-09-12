@@ -1,4 +1,4 @@
-internShip;
+INTERNSHIP;
 
 Certainly! Here’s a README file text for your two projects:
 
