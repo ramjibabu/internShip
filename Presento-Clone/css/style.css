@@ -1,0 +1,832 @@
+* {
+    box-sizing: border-box !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+
+}
+
+header nav {
+    padding-top: 17px !important;
+    padding-bottom: 17px !important;
+}
+
+.headerTitle {
+    font-family: "Raleway", sans-serif !important;
+    color: #111111;
+    font-weight: 700 !important;
+    font-size: 29px !important;
+}
+
+.headerTitle::after{
+    content: '.';
+    color: #e03a3c;
+
+}
+
+.header-btn {
+    font-size: 14px;
+    background: #e03a3c;
+    padding: 8px 25px;
+    margin: 0 0 0 30px;
+    font-family: "Roboto", sans-serif !important;
+    border-radius: 4px;
+    border: none;
+    transition: 0.3s;
+    font-weight: 400;
+
+}
+
+.header-btn:hover {
+    background: #e74d4f;
+}
+
+.header-ul li a {
+    font-family: "Poppins", sans-serif;
+    color: #212529 !important;
+    font-size: 14px;
+    transition: 0.3s;
+
+}
+
+.header-ul li {
+    padding-right: 9px;
+}
+
+.header-ul li a:hover {
+    color: #e03a3c !important;
+}
+
+.hero::before {
+    content: "";
+    background: color-mix(in srgb, #000000, transparent 30%);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.hero img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hero {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 3;
+
+    color: white;
+
+}
+
+.hero .container h2 {
+    width: 500px;
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+
+}
+
+.hero .container p {
+    font-size: 24px;
+    opacity: 80%;
+    margin: 0px 0px 20px 0px;
+    width: 470px;
+}
+
+.hero .container a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.getStarted {
+    display: flex;
+}
+
+.hero .container i {
+    color: #e03a3c;
+    padding-left: 15px;
+    font-size: 27px;
+    font-weight: 300 !important;
+}
+
+.getStarted-btn {
+    font-size: 16px;
+    background: #e03a3c;
+    padding: 8px 25px;
+    font-family: "Roboto", sans-serif !important;
+    border-radius: 4px;
+    border: none;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.getStarted-btn:hover {
+    background: #e74d4f;
+
+}
+
+.hero .container a span {
+    padding-left: 8px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    transition: 0.5s;
+
+}
+
+.hero .container a span:hover {
+    color: #e03a3c;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.client {
+    margin-top: 40px;
+
+
+}
+
+.client div img {
+    padding: 30px;
+    padding-bottom: 0 !important;
+    filter: grayscale(100);
+}
+
+.client div img:hover {
+    scale: 120%;
+    transition: 0.5s;
+    filter: grayscale(0);
+
+}
+
+.about {
+    background: #1b1b1b;
+    color: white;
+    width: 100%;
+
+}
+
+.about-left h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.about-left p {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 26px;
+
+}
+
+.about-left a {
+
+    text-decoration: none;
+    font-size: 16px;
+    background: #1b1b1b;
+    padding: 8px 25px;
+    font-family: "Roboto", sans-serif !important;
+    border-radius: 35px;
+    border: 2px solid #e03a3c;
+    transition: 0.3s;
+    font-weight: 400;
+    transition: 0.5s;
+    color: white;
+}
+
+.about-left a:hover {
+    background: #e03a3c;
+}
+
+.about-right i {
+    color: #e03a3c;
+    font-size: 28px;
+}
+
+.about-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.about-right p {
+    font-size: 13px;
+    color: white;
+    opacity: 80%;
+}
+
+.about-right a:hover {
+    color: #e03a3c;
+}
+
+.statics-item {
+    margin-top: -27px;
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 0;
+
+}
+
+.statics-item span {
+    color: #444444;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 30px;
+}
+
+.statics-item p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.icon {
+    color: #e03a3c !important;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+    border: 24px solid white;
+    border-radius: 55px;
+}
+
+.tabBag {
+    text-decoration: none;
+    border: 1px solid black;
+    color: #444444;
+    transition: 0.5s;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+.tabBag:hover {
+    border: 1px solid #e03a3c;
+
+}
+
+.tabBag i:hover {
+    color: #e03a3c;
+    transition: 0.5s;
+}
+
+.tabBag h4 {
+    font-size: 15px;
+}
+
+.tabBag i {
+    font-size: 40px;
+    padding: 11px;
+
+}
+
+.tab-img {
+    height: 90%;
+}
+
+.services {
+    background: #1b1b1b;
+    color: white;
+}
+
+.services h2 {
+    margin-bottom: 19px;
+    font-family: "Raleway", sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.servicesPara {
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+
+
+}
+
+.services-box i {
+    font-size: 30px;
+    padding: 15px;
+    color: #e03a3c;
+    padding-top: 26px;
+
+}
+
+.boxBg {
+    background: #353535 !important;
+    transition: 0.5s;
+}
+
+.boxBg:hover {
+    background: #4d4d4d !important;
+
+}
+
+.services-box h4 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+
+
+}
+
+.services-box p {
+    font-size: 13px;
+
+}
+
+.testimonialsTitle {
+    text-align: center;
+}
+
+.testimonialsTitle h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+
+
+}
+
+.testimonialsTitle-para {
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+}
+
+.testimonial-item {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 15px;
+    position: relative;
+    height: 100%;
+}
+
+.testimonial-item img {
+    width: 90px !important;
+    border-radius: 1490px;
+    margin-right: 15px;
+}
+
+.testimonial-item h3 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.testimonial-item h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    opacity: 90%;
+}
+
+.stars {
+    color: #ffc107;
+}
+
+.quote {
+    color: #e03a3c;
+    opacity: 70%;
+}
+
+.pricing {
+    background: #1b1b1b;
+    color: white;
+
+}
+
+.pricing h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center;
+
+}
+
+.pricePara {
+    color: white;
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+}
+
+.pricing-item {
+    position: relative;
+    background: #353535 !important;
+
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.pricing h3 {
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+
+.pricing h4 {
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+
+    color: #e03a3c;
+
+}
+
+.pricing h4 span {
+    color: white;
+    opacity: 80%;
+    font-size: 16px;
+}
+
+.pricing ul i {
+    color: #059652;
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+.pricing ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pricing ul li span {
+    opacity: 80%;
+    font-size: 14px;
+}
+
+.buy-btn {
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    background-color: #1b1b1b;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    border: 1px solid color-mix(in srgb, white, transparent 60%);
+    transition: 0.5s;
+}
+
+.buy-btn:hover {
+    background: #e03a3c;
+    opacity: 100%;
+    border: none;
+}
+
+.pricing-item-2 {
+    scale: 107%;
+    background: #e03a3c;
+    height: 100%;
+    z-index: 6 !important;
+    color: white !important;
+    padding: 30px;
+    opacity: 100% !important;
+
+}
+
+.faqTitle {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center;
+}
+
+.faqPara {
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+}
+
+.contactTitle {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center;
+}
+
+.contactPara {
+
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+
+}
+
+.contactAdd {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 0 30px 0;
+}
+
+.contactCall {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 0 30px 0;
+}
+
+.contactMail {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 0 30px 0;
+}
+
+.contactAdd i {
+    color: #e03a3c;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 2px dotted color-mix(in srgb, #e03a3c, transparent 40%);
+}
+
+.contactAdd h3 {
+    color: color-mix(in srgb, #444444, transparent 20%);
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contactAdd p {
+    padding: 0;
+    margin-bottom: 0;
+    color: #444444;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.contactCall i {
+    color: #e03a3c;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 2px dotted color-mix(in srgb, #e03a3c, transparent 40%);
+}
+
+.contactMail i {
+    color: #e03a3c;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 2px dotted color-mix(in srgb, #e03a3c, transparent 40%);
+}
+
+.contactCall h3 {
+    color: color-mix(in srgb, #444444, transparent 20%);
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contactCall p {
+    padding: 0;
+    margin-bottom: 0;
+    color: #444444;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.contactMail h3 {
+    color: color-mix(in srgb, #444444, transparent 20%);
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contactMail p {
+    padding: 0;
+    margin-bottom: 0;
+    color: #444444;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.form input {
+    font-size: 14px;
+
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-color: color-mix(in srgb, #444444, transparent 80%);
+}
+
+textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-color: color-mix(in srgb, #444444, transparent 80%);
+}
+
+.formBtn {
+    color: #ffffff;
+    background: #e03a3c;
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactRight {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 0 30px 0;
+}
+
+.footer {
+    background: #1b1b1b;
+    font-size: 14px;
+    padding-bottom: 50px;
+    position: relative;
+    color: white;
+}
+
+.footer-about a {
+    text-decoration: none;
+
+}
+
+.footer-about span {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+
+
+}
+
+.footer-contact {
+    font-size: 14px;
+}
+
+.footer-contact p {
+    margin: 0px;
+    opacity: 80%;
+
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-links ul li a {
+    padding-top: 2px;
+    color: white;
+    opacity: 80%;
+    padding-top: 7px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.footer-services h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-services ul li a {
+    padding-top: 2px;
+    color: white;
+    opacity: 80%;
+    padding-top: 7px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-services ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-news h4 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-news form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 6px 8px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid color-mix(in srgb, #ffffff, transparent 80%);
+    display: flex;
+    background-color: #1b1b1b;
+    transition: 0.3s;
+}
+.footer-news form input{
+    border: 0;
+    background-color:#1b1b1b;
+    color:#ffffff;
+}#btn-sub{
+    background: #e03a3c;
+    border: none;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    left: 60px;
+    
+}
+.footer-btn{
+    background: #e03a3c !important;
+    padding: 8px;
+    border-radius: 3px;
+    padding-left: 22px;
+
+  
+
+    padding-right: 22px;
+}
+.credits{
+    font-size: 16px;
+    margin-top: -5px;
+}#line-bar{
+    background: #e03a3c;
+    width: 70px;
+    height: 5px;
+}
+@media Screen and (min-width:320px) and (max-width:480px) {}
