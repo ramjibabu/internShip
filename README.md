@@ -69,7 +69,7 @@ For any questions or inquiries:
 
 - **Name:** RAMJIBABU S
 - **Email:** rb066651@gmail.com
-- **GitHub:** https://github.com/ramjibabu/interShip
+- **GitHub:** https://github.com/ramjibabu/internShip
 
 Thank you for exploring the Presento and Rented House Booking projects!
 
